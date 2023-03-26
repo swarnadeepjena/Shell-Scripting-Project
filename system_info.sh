@@ -1,23 +1,18 @@
 #!/bin/bash
-#Purpose : To display the message.
-#Author : DevSafia
-#Date : 27 February 2023
+
+#Author : swarnadeep
+#Date : 26 March 2023
 
 echo " ******************************************* SHELL SCRIPTING *************************************** "
 
-echo " Hello Doston Kise ho aap sab "
+echo " Hi, Greetings Of The Day "
 sleep 2
-echo " Please enter a name :  "
-sleep 2
+
+echo " Please enter your name :  "
 read name
-echo " Hi $name welcome to my YouTube Channel"
 
-echo " *************************************************************** "
-
-echo "
-" 
 echo "********* Hi $name - Please see the detailed server status below ************* "
-
+sleep 3
 
 echo " ******************************* CURRENT DATE AND TIME ****************************** "
 date | awk '{print " Today is: " $3 "st - " $2 " ; Day = " $1 " ; Time: " $4 }'
@@ -37,7 +32,7 @@ uptime
 echo "
 "
 echo "******************************* LAST 3 LOGIN DETAILS ********************************************* "
-last | head -3
+last | head -5
 echo "
 "
 
@@ -45,3 +40,6 @@ echo "****************************************** CURRENTLY CONNECTED ***********
 w
 
 echo " *************************************************** END ************************************************************ "
+~                                                                                                                                                                                                                                             
+~                                                                                                                                                                                                                                             
+~                  
